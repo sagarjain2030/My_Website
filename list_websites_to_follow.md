@@ -14,4 +14,9 @@ List of Websites:
 08. http://www.rleonardi.com/
 09. https://albinotonnina.com/
 10. https://marty.com/
-
+11. https://www.garysheng.com/
+12. https://www.martinemyrup.com/
+13. https://itssharl.ee/
+14. https://p5aholic.me/
+15. https://bruno-simon.com/
+16. https://www.adit.io/
