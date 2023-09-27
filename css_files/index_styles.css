@@ -14,3 +14,21 @@ img {
     height: auto;
     margin : 2%;
 }
+  
+nav ul {
+    /* Remove default list styles and create a horizontal list */
+    list-style: none;
+    display: flex;
+}
+  
+nav li {
+    /* Style list items */
+    margin: 0 10px;
+}
+  
+nav a {
+    /* Style links */
+    text-decoration: none;
+    color: #333;
+}
+  
