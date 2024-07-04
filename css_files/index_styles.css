@@ -1,34 +1,64 @@
-body {
+body 
+{
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
 }
 
-h1 {
+h1 
+{
     color: #333;
 }
 
-img {
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+  
+.logo img 
+{
+    max-height: 10vh;
+    max-width: 10vw;
+}
+
+img
+{
     max-width: 45%;
     height: auto;
     margin : 2%;
 }
   
 nav ul {
-    /* Remove default list styles and create a horizontal list */
     list-style: none;
     display: flex;
-}
+    justify-content: space-around;
+    padding: 0;
+    background-color: #333;
+  }
   
-nav li {
-    /* Style list items */
-    margin: 0 10px;
-}
+  nav ul li {
+    margin: 0;
+  }
   
-nav a {
-    /* Style links */
+  nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #333;
-}
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+  }
   
+  nav ul li a:hover {
+    background-color: #575757;
+  }
+  
+  .nav-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
