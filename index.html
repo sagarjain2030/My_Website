@@ -10,7 +10,9 @@
 <body>
     <header>
         <div class="logo">
-          <img src="img/logo_001.jpg" alt="SJ">
+          <a href="index.html" >
+            <img src="img/logo_001.jpg" alt="SJ">
+          </a>
         </div>
         <nav>
           <ul>
@@ -40,26 +42,28 @@
         <img src="img/profile_pic.jpg" alt="Sagar Jain Photo">
     </section>
     <section id="projects">
-        <h2>Featured Projects</h2>
-        <div class="project">
-          <h3>Project 1: [Project Name]</h3>
-          <p>[One or two sentences about the project]</p>
-          <p>Technologies used: [List of technologies]</p>
-          <a href="project1-link">View Case Study</a>
-        </div>
-        <div class="project">
-          <h3>Project 2: [Project Name]</h3>
-          <p>[One or two sentences about the project]</p>
-          <p>Technologies used: [List of technologies]</p>
-          <a href="project2-link">View Case Study</a>
-        </div>
-        <div class="project">
-          <h3>Project 3: [Project Name]</h3>
-          <p>[One or two sentences about the project]</p>
-          <p>Technologies used: [List of technologies]</p>
-          <a href="project3-link">View Case Study</a>
-        </div>
-      </section>
+      <h2>Featured Projects</h2>
+      <div class="project-container">
+          <div class="project">
+              <h3>Project 1: [Project Name]</h3>
+              <p>[One or two sentences about the project]</p>
+              <p>Technologies used: [List of technologies]</p>
+              <a href="project1-link">View Case Study</a>
+          </div>
+          <div class="project">
+              <h3>Project 2: [Project Name]</h3>
+              <p>[One or two sentences about the project]</p>
+              <p>Technologies used: [List of technologies]</p>
+              <a href="project2-link">View Case Study</a>
+          </div>
+          <div class="project">
+              <h3>Project 3: [Project Name]</h3>
+              <p>[One or two sentences about the project]</p>
+              <p>Technologies used: [List of technologies]</p>
+              <a href="project3-link">View Case Study</a>
+          </div>
+      </div>
+  </section>
       <section id="skills">
         <h2>Skills and Technologies</h2>
         <div class="skills-list">
@@ -74,20 +78,21 @@
       </section>
       <section id="experience">
         <h2>Experience</h2>
-        <p>Over 5 years of experience in software development, having worked with companies like [Company Name] and [Company Name]. Specialized in building scalable web applications and creating intuitive user interfaces.</p>
+        <div class="experience-item">
+          <h3>Company 1</h3>
+          <p>Role: [Your Role]</p>
+          <div class="experience-duration">January 2015 - December 2019</div>
+          <p>Over 5 years of experience in software development, having worked with companies like [Company Name] and [Company Name]. Specialized in building scalable web applications and creating intuitive user interfaces.</p>
+        </div>
+        <div class="experience-item">
+          <h3>Company 2</h3>
+          <p>Role: [Your Role]</p>
+          <div class="experience-duration">January 2015 - December 2019</div>
+          <p>Details about your experience at this company.</p>
+        </div>
+        <!-- Add more experience items as needed -->
       </section>
-      <section id="testimonials">
-        <h2>Testimonials</h2>
-        <blockquote>
-          <p>"[Testimonial text]"</p>
-          <footer>- Name, Position, Company</footer>
-        </blockquote>
-        <blockquote>
-          <p>"[Testimonial text]"</p>
-          <footer>- Name, Position, Company</footer>
-        </blockquote>
-      </section>
-      <section id="cta">
+       <section id="cta">
         <h2>Let's Work Together</h2>
         <p>Interested in working together? Let's create something amazing!</p>
         <a href="#contact" class="cta-button">Contact Me</a>
