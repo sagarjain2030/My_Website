@@ -173,13 +173,15 @@ nav ul li a i
   border-radius: 20px;
 }
 
-#experience {
+#experience 
+{
   position: relative;
   margin: 50px 0;
   padding-left: 40px;
 }
 
-#experience::before {
+#experience::before 
+{
   content: '';
   position: absolute;
   top: 0;
@@ -189,16 +191,18 @@ nav ul li a i
   background-color: #0277bd; /* Blue */
 }
 
-.experience-item {
+.experience-item 
+{
   position: relative;
   margin-bottom: 20px;
   padding-left: 20px;
 }
 
-.experience-item::before {
+.experience-item::before 
+{
   content: '';
   position: absolute;
-  left: -20px;
+  left: -30px;
   top: 5px;
   height: 10px;
   width: 10px;
@@ -206,16 +210,26 @@ nav ul li a i
   background-color: #01579b; /* Dark blue */
 }
 
-.experience-item h3 {
-  margin: 0;
+.experience-item h3,
+.experience-item p,
+.experience-duration 
+{
+  margin: 5px 0;
+  color: #333;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.experience-item h3 
+{
   font-size: 1.2em;
   color: #01579b; /* Dark blue */
 }
 
-.experience-item p {
-  margin: 5px 0;
-  color: #333;
-  text-align: justify;
+.experience-duration 
+{
+  font-style: italic;
+  color: #666;
 }
 
 footer 
