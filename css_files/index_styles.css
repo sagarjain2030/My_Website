@@ -232,16 +232,15 @@ nav ul li a i
   color: #666;
 }
 
-footer 
-{
+footer {
   background: #0277bd; /* Blue */
   color: white;
   padding: 20px 0;
   margin-top: 20px;
+  text-align: center;
 }
 
-footer .social-media 
-{
+footer .social-media {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -249,20 +248,36 @@ footer .social-media
   padding: 0;
 }
 
-footer .social-media li 
-{
+footer .social-media li {
   margin: 0;
 }
 
-footer .social-media a 
-{
+footer .social-media a {
   color: white;
   text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 footer .social-media a:hover 
 {
   color: #26c6da; /* Light blue on hover */
+}
+
+footer .social-media i 
+{
+  margin-right: 0.5em;
+}
+
+footer .social-media a span 
+{
+  display: none;
+}
+
+footer .social-media a i:empty + span 
+{
+  display: inline;
 }
 
 /* Media Queries */
