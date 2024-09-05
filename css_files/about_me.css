@@ -1,0 +1,178 @@
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10vh 10vw;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #01579b; /* Dark blue */
+}
+
+h1, h2, h3 
+{
+  color: #01579b; /* Dark blue */
+}
+
+header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0277bd; /* Blue */
+  padding: 10px 20px;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo img 
+{
+  max-height: 10vh;
+  max-width: 10vw;
+}
+
+img 
+{
+  max-width: 45%;
+  height: auto;
+  margin: 2%;
+}
+
+nav 
+{
+  flex: 1;
+}
+
+nav ul 
+{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background-color: #0277bd; /* Blue */
+  flex-wrap: wrap;
+}
+
+nav ul li 
+{
+  margin: 0;
+}
+
+nav ul li a 
+{
+  color: #fff; /* White text */
+  text-decoration: none;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active 
+{
+  background-color: #01579b; /* Dark blue on hover/active */
+}
+
+nav ul li a i 
+{
+  margin-right: 8px;
+}
+
+.about-section {
+    background-color: #ffffff; /* White background */
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.about-section h1, .about-section h2 {
+    color: #01579b; /* Dark blue */
+    margin-bottom: 20px;
+}
+
+.about-text {
+    color: #333; /* Dark grey text */
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.about-image {
+    max-width: 250px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 20px auto; /* Center the image horizontally */
+    display: block; /* Ensure the image is centered */
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.skills-list span {
+    background: #0277bd; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background: #0277bd; /* Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+footer .social-media a:hover {
+    color: #26c6da; /* Light blue on hover */
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .about-image {
+        max-width: 150px; /* Reduce the size on smaller screens */
+    }
+
+    .skills-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

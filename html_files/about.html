@@ -2,17 +2,67 @@
 <html lang="en">
 <head>
     <title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css_files/about_me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to Font Awesome -->
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="project.html">Portfolio</a></li>
-          <li><a href="https:/blog.sagarjain.in">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
+    <header>
+        <div class="logo">
+          <a href="../index.html" >
+            <img src="../img/logo_001.jpg" alt="SJ">
+          </a>
+        </div>
+        <nav>
+          <ul>
+              <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="about.html" class="active"><i class="fas fa-user"></i> About</a></li>
+              <li><a href="project.html"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+              <li><a href="https:/blog.sagarjain.in"><i class="fas fa-blog"></i> Blog</a></li>
+              <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Me</a></li>
+          </ul>
+        </nav>
+    </header>
+    <section id="about-me">
+      <div class="about-container">
+          <h1>About Me</h1>
+          <img src="../img/profile_pic.jpg" alt="Sagar Jain Photo" class="about-image">
+          <p>Hello! I'm Sagar Jain, a Senior Software Engineer specializing in Computer Vision and Image Processing. With over 8 years of experience in C++ and Python, I've built a strong foundation in developing scalable, high-performance applications.</p>
+          <p>My passion lies in solving complex challenges through innovative software solutions, especially in the realm of real-time applications. I thrive in collaborative environments where I can contribute to cutting-edge projects that push the boundaries of technology.</p>
+          <p>Outside of work, I'm an avid reader with a love for children's storybooks and a large collection of Chandamama books dating back to 1949. I also enjoy exploring new technologies and staying updated on the latest industry trends.</p>
+      </div>
+    </section>
+    <section id="career-highlights">
+      <div class="highlights-container">
+          <h2>Career Highlights</h2>
+          <p>Over the years, I've had the privilege of working with some amazing companies, where I contributed to various innovative projects:</p>
+          <ul>
+              <li><strong>Great Software (GS) Lab</strong> – Leading projects in Computer Vision and Image Processing as a Senior Software Engineer.</li>
+              <li><strong>Siemens Digital Industry</strong> – Played a key role in the development of industrial software solutions.</li>
+              <li><strong>Dassault System (3DPLM)</strong> – Involved in R&D, driving advancements in software engineering.</li>
+              <li><strong>Renishaw Metrology Systems</strong> – Started my journey as an Associate Software Engineer, where I honed my skills in software development.</li>
+          </ul>
+      </div>
+    </section>
+
+  <section id="personal-interests">
+      <div class="interests-container">
+          <h2>Personal Interests</h2>
+          <p>When I'm not coding, I love immersing myself in stories. I'm working on a project to create animation videos based on my collection of Chandamama books. I also enjoy writing and sharing knowledge through blogs and YouTube videos, where I discuss topics ranging from software engineering to personal growth.</p>
+      </div>
+  </section>
+      <section id="cta">
+        <h2>Let's Work Together</h2>
+        <a href="contact.html" class="cta-button" target="_blank">Contact Me</a>
+      </section>
+      <footer>
+        <ul class="social-media">
+          <li><a href="https://www.linkedin.com/in/sagarjain2030" target="_blank" data-text="LinkedIn"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
+          <li><a href="https://github.com/sagarjain2030" target="_blank" data-text="GitHub"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+          <li><a href="https://twitter.com/sagarjain2030" target="_blank" data-text="Twitter"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
         </ul>
-    </nav>
+        <p>&copy; 2024 Sagar Jain</p>
+      </footer>                                     
 </body>
 </html>
