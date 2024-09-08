@@ -97,12 +97,16 @@ nav ul li a i
     margin-bottom: 20px;
 }
 
+.about-p {
+  padding: 0% 20%;
+  text-align: justify;
+}
+
 .about-text {
     color: #333; /* Dark grey text */
     line-height: 1.6;
     text-align: justify;
 }
-
 
 .about-image {
     max-width: 250px; /* Set a maximum width for the image */
@@ -117,6 +121,18 @@ nav ul li a i
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+#career-highlights ul {
+  padding-left: 10%;  /* Adjust the indent of the bullet points */
+  list-style-type : none;
+  text-align: justify;
+
+}
+
+#career-highlights li {
+  margin-bottom: 5px;  /* Reduce the space between each list item */
+  line-height: 1.5;  /* Adjust the line spacing within the list item */
 }
 
 .skills-list {
